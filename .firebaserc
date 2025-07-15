@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "slams-8588b"
+  },
+  "targets": {
+    "slams-8588b": {
+      "hosting": {
+        "slamstat": [
+          "slamstat"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

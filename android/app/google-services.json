@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "342193248635",
+    "project_id": "slams-8588b",
+    "storage_bucket": "slams-8588b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342193248635:android:4c8494fda755ce7440c5de",
+        "android_client_info": {
+          "package_name": "com.example.slamstat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuNMUk1ewlegbJJkPzeCNRlvndsHyjVfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
