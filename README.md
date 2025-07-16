@@ -1,143 +1,198 @@
-# 🏀 SlamStat - Court Commander 📊
 
-**SlamStat** is the ultimate real-time basketball match tracking powerhouse built with Flutter and Firebase! Whether you're coaching the next championship team or managing your local league, SlamStat brings professional-grade match management to your fingertips.
 
-## 🔥 Game-Changing Features
+# 🏀🔥 **SlamStat - Court Commander** 📊
+
+***“Track. Score. Dominate.”***
+The all-star basketball match tracking system built using **Flutter** & **Firebase**!
+
+![Basketball Dunk](https://media.tenor.com/fBvMz82fWvwAAAAC/basketball-dunk.gif)
+
+---
+
+## 📣 **Welcome to SlamStat Arena**
+
+🏟️ Whether you're coaching the next MVP, organizing tournaments, or managing your league, **SlamStat** brings **real-time match control**, **deep stat tracking**, and **team management** into one fast-break Flutter app!
+
+---
+
+## 🔥 **Game-Changing Features**
 
 ### 🏆 **Team Management Central**
-- 🔐 **Admin Dashboard** - Secure authentication for coaches and administrators
-- 👥 **Squad Builder** - Create and manage Boys & Girls teams with complete roster control
-- 🌟 **Player Profiles** - Individual stat tracking for every player on your roster
-- 📈 **Performance Analytics** - Deep dive into player and team statistics
+
+* 🔐 **Secure Admin Dashboard** – Powered by Firebase Authentication
+* 👥 **Squad Builder** – Create & manage Boys & Girls teams
+* 🌟 **Player Profiles** – Individual stat tracking per player
+* 📈 **Performance Analytics** – Dive into player & team metrics
+
+![Team Animation](https://media.tenor.com/0qIdL9WfrqgAAAAC/basketball-team.gif)
+
+---
 
 ### ⚡ **Live Match Engine**
-- 🕐 **Real-Time Scoring** - Live score updates with quarter-by-quarter breakdowns
-- ⏱️ **Game Timer** - Professional match timing with pause/resume functionality
-- 🏀 **Match Types** - Support for Friendly games, Tournament matches, and more
-- 📊 **Live Stats** - Track rebounds, assists, steals, and shooting percentages in real-time
-- 🎯 **Flexible Formats** - Support for 1v1, 2v2, 3v3, 4v4, and full 5v5 matches
 
-### 📱 **Fan Experience**
-- 🎯 **SlamView Companion** - Separate app for fans to follow live matches
-- 🔔 **Instant Notifications** - Push alerts for game updates, scores, and highlights
-- 📋 **Match History** - Complete archive of completed games and results
-- 🏅 **Leaderboards** - Team and player rankings with comprehensive stats
+* ⏱️ **Real-Time Scoring** – Update scores with quarter-by-quarter tracking
+* 🕐 **Game Timer** – Start, pause, and reset like a pro league scoreboard
+* 🏀 **Match Types** – Friendly games, tournaments, and beyond
+* 📊 **Live Stats** – Track rebounds, assists, steals, FG%, and more
+* 🎯 **Flexible Formats** – 1v1 to full-court 5v5 support
 
-## 🛠️ Championship Tech Stack
+![Live Stats Animation](https://media.tenor.com/WwQosYOa2NsAAAAC/basketball-scoreboard.gif)
 
-- **🎯 Flutter** - Cross-platform mobile development framework
-- **🔥 Firebase Realtime Database** - Lightning-fast data synchronization
-- **🛡️ Firebase Authentication** - Rock-solid security for admin access
-- **📢 Firebase Cloud Messaging** - Instant push notifications
-- **⚡ Provider/Riverpod** - Advanced state management for smooth performance
-- **🔧 Android Studio** - Primary development environment
+---
 
-## 🚀 Quick Start Guide
+### 📱 **Fan Experience (via SlamView App)**
 
-### 1. **Get the Code**
+* 📡 **Real-Time Match Feed** – Watch the score change live!
+* 🔔 **Push Notifications** – Game alerts, highlights, and final scores
+* 📋 **Match History** – Browse past match results and stats
+* 🏅 **Leaderboards** – Rank top players and dominant teams
+
+![Fans Cheering](https://media.tenor.com/Fk9aIAOWXiYAAAAC/fans-basketball.gif)
+
+---
+
+## 🛠️ **Championship Tech Stack**
+
+| Tech                    | Description                              |
+| ----------------------- | ---------------------------------------- |
+| 🧩 Flutter              | Cross-platform development (Android/iOS) |
+| 🔥 Firebase Realtime DB | Live match sync & player stats           |
+| 🛡️ Firebase Auth       | Admin access & secure login              |
+| 📢 Firebase Messaging   | Real-time push notifications             |
+| ⚙️ Riverpod/Provider    | State management for silky-smooth flow   |
+| 💻 Android Studio       | Main development environment             |
+
+---
+
+## 🚀 **Quick Start Guide**
+
+### 1️⃣ Clone the Repo
+
 ```bash
 git clone https://github.com/yourusername/slamstat.git
 cd slamstat
 ```
 
-### 2. **Install Dependencies**
+### 2️⃣ Install Dependencies
+
 ```bash
 flutter pub get
 ```
 
-### 3. **Firebase Setup**
-- Add your `google-services.json` (Android) to `android/app/`
-- Add your `GoogleService-Info.plist` (iOS) to `ios/Runner/`
-- Configure Firebase in `android/app/build.gradle` and `ios/Runner/Info.plist`
+### 3️⃣ Firebase Setup
 
-### 4. **Launch the App**
+* 📁 Place `google-services.json` in `android/app/`
+* 📁 Place `GoogleService-Info.plist` in `ios/Runner/`
+* ⚙️ Configure Firebase in Gradle and Info.plist
+
+### 4️⃣ Launch the App
+
 ```bash
 flutter run
 ```
 
-## 📂 Court Architecture
-
-```
-lib/
-├── 🔐 auth/              # Authentication screens & logic
-├── 📊 models/            # Data models (Team, Player, Match, Stats)
-├── 🏀 screens/           # Main app screens
-│   ├── home/             # Dashboard and navigation
-│   ├── teams/            # Team management
-│   ├── matches/          # Live scoring and match creation
-│   └── stats/            # Analytics and reporting
-├── 🔧 services/          # Firebase integrations
-├── 🎨 widgets/           # Reusable UI components
-├── 🎯 utils/             # Helper functions and constants
-└── 📱 main.dart          # App entry point
-```
-
-## 🏆 Key Highlights
-
-- **⚡ Real-time Updates** - See scores change instantly across all devices
-- **📊 Advanced Statistics** - Track shooting percentages, rebounds, assists, and more
-- **🎮 Intuitive Interface** - Designed for coaches, players, and fans
-- **🔒 Secure & Scalable** - Enterprise-grade Firebase backend
-- **📱 Cross-Platform** - Works seamlessly on Android and iOS
-
-## 📸 Screenshots
-
-### 🎨 **App Interface Gallery**
-- 🌟 **Splash Screen** - Dynamic loading screen with SlamStat branding
-- 🏠 **Home Dashboard** - Central hub for all basketball management activities
-- ⚡ **Live Match Page** - Real-time scoring interface with timer and stats
-- 👥 **Teams Management** - Complete roster control and team organization
-- 🎯 **Team Selection** - Quick team picker for match creation
-- 🏀 **Match Format Selection** - Choose between different game formats
-![WhatsApp Image 2025-07-16 at 02 08 03_cb33e36c](https://github.com/user-attachments/assets/4241aecb-4636-494e-be87-0415b475e00e)
-![WhatsApp Image 2025-07-16 at 02 08 02_62e56dbd](https://github.com/user-attachments/assets/26e964b3-2cb8-4238-83e1-f7247e4dd396)
-![WhatsApp Image 2025-07-16 at 02 08 02_81a72cae](https://github.com/user-attachments/assets/cf258550-3663-4252-bc36-56a493a67688)
-![WhatsApp Image 2025-07-16 at 02 08 03_ae954b71](https://github.com/user-attachments/assets/90047164-94e4-4880-af6a-da41ece16fac)
-
-## 🎯 Important Match Setup Instructions
-
-### 📋 **Match Format Selection Rules**
-
-**🤝 Friendly Matches:**
-- ⚠️ **Format Selection REQUIRED** - Always choose match format (1v1, 2v2, 3v3, 4v4, 5v5)
-- 🎯 Format determines court size, game duration, and scoring rules
-- 📊 Essential for proper statistics tracking and gameplay
-
-**🏆 College Tournament Matches:**
-- ✅ **Format Selection OPTIONAL** - Default to standard 5v5 format
-- 🔄 **Exception:** If teams are already registered in the app, format auto-detected
-- ⚡ **Special Tournaments:** For 1v1, 2v2, 3v3, or 4v4 college tournaments, format selection IS required
-- 🎪 Mixed format tournaments need manual format specification
-
-### 🎮 **Quick Setup Guide**
-1. **Select Match Type** (Friendly vs Tournament)
-2. **Choose Teams** (from existing roster or create new)
-3. **Set Format** (required for Friendly, optional for standard Tournament)
-4. **Configure Timer** and start your match!
-
-- 🎥 Video highlights integration
-- 📈 Advanced analytics dashboard
-- 🏆 Tournament bracket management
-- 🌐 Web dashboard for coaches
-- 📊 Export game reports
-
-## 🎯 Coming Soon
-
-- [Flutter Documentation](https://docs.flutter.dev/)
-- [Firebase for Flutter](https://firebase.flutter.dev/)
-- [FlutterFire Plugins](https://pub.dev/publishers/firebase.google.com/packages)
-- [Basketball Rules & Regulations](https://www.fiba.basketball/documents)
-
-## 🔗 Essential Resources
-
-**Crafted with 🏆 and ❤️ by [Aryant Kumar](https://www.linkedin.com/in/aryant-kumar-dev)**
-
-Connect with the developer:
-- 💼 LinkedIn: [Aryant Kumar](https://www.linkedin.com/in/aryant-kumar-dev/)
-- 🐱 GitHub: [AryantKumar](https://github.com/AryantKumar)
+> 🏀 Now you're on the court!
 
 ---
 
-*Ready to dominate the court? Clone, build, and start tracking your team's journey to victory! 🏆*
+## 📂 **Court Architecture**
 
-### 🌟 Don't forget to star the repo if SlamStat helps your team! 🌟
+```bash
+lib/
+├── 🔐 auth/          # Authentication & login
+├── 📊 models/        # Match, Player, Team, Stats models
+├── 🏀 screens/       # Home, Teams, Matches, Stats
+├── 🔧 services/      # Firebase integration
+├── 🎨 widgets/       # Reusable UI components
+├── 🎯 utils/         # Helper functions & constants
+└── 📱 main.dart      # App entry point
+```
+
+---
+
+## 🏅 **Key Highlights**
+
+* ⚡ **Live Scoring** across all devices
+* 📊 **Advanced Stats** for every player action
+* 🎮 **User-Friendly UI** for admins, players, and fans
+* 🔒 **Secure & Scalable** Firebase backend
+* 📱 **Cross-platform** – Android & iOS ready
+
+![Real-Time](https://media.tenor.com/3BldMGq4qQ4AAAAC/scoreboard-basketball.gif)
+
+---
+
+## 📸 **App Interface Gallery**
+
+| Splash Screen                                                                              | Home                                                                                     | Live Match                                                                               |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| ![Splash](https://github.com/user-attachments/assets/806708a8-bfb5-4736-9164-3b74db0b36a2) | ![Home](https://github.com/user-attachments/assets/ba4a3f9e-0407-4c86-88dd-32e15e7539b1) | ![Live](https://github.com/user-attachments/assets/b08690de-4c85-4085-acc3-d524228f46c6) |
+
+| Teams                                                                                     | Match Format                                                                               |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ![Teams](https://github.com/user-attachments/assets/78edf821-45c3-4cc8-9905-6d5607219f0f) | ![Format](https://github.com/user-attachments/assets/eee9a4fc-f9cf-46c5-b8f9-dc479467e055) |
+
+---
+
+## 🎮 **Match Setup Instructions**
+
+### 🏀 **Friendly Matches**
+
+* ✅ **Format Required**: 1v1 – 5v5
+* 🧠 Dictates rules, timing, and layout
+
+### 🏆 **College Tournament Matches**
+
+* ⚠️ **Format Optional** (defaults to 5v5)
+* 🧠 If both teams are registered, format auto-detected
+* 🔄 Non-standard formats must be set manually
+
+### 🧩 **Quick Setup Flow**
+
+1. Select **Match Type**
+2. Choose **Team A** & **Team B**
+3. Pick **Format**
+4. Set **Timer & Quarters**
+5. 🟢 Tap **Start Match**
+
+---
+
+## 🧠 **Coming Soon**
+
+* 🎥 **Highlight Replays** (Video Integration)
+* 📈 **Advanced Analytics Dashboards**
+* 🏆 **Tournament Bracket Management**
+* 🌐 **Web Dashboard for Coaches**
+* 📊 **Match Report Export (PDF/Excel)**
+
+---
+
+## 📚 Resources
+
+* 📘 [Flutter Docs](https://docs.flutter.dev/)
+* 🔥 [Firebase for Flutter](https://firebase.flutter.dev/)
+* 🧩 [FlutterFire Plugins](https://pub.dev/publishers/firebase.google.com/packages)
+* 🏀 [FIBA Official Rules](https://www.fiba.basketball/documents)
+
+---
+
+## 👤 **Developed with Passion by Aryant Kumar**
+
+🏀 Flutter Developer | Firebase Specialist | Basketball Aficionado
+
+* 🔗 [LinkedIn](https://www.linkedin.com/in/aryant-kumar-dev)
+* 🐙 [GitHub](https://github.com/AryantKumar)
+
+---
+
+## 🌟 **Star the Repo & Join the Team!**
+
+If SlamStat helped you **shoot better, track smarter, and win bigger** — give it a ⭐ and share it with your league!
+
+> 🗣️ *"Champions keep score — digitally!"*
+
+![MVP Slam](https://media.tenor.com/HZEnAmYj_1UAAAAd/basketball-slam.gif)
+
+---
+
+
