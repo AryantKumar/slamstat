@@ -19,7 +19,7 @@
 
 ## Overview
 
-SlamStat is a production-ready basketball statistics platform built with Flutter and Firebase. It delivers real-time match tracking, comprehensive player analytics, and centralized team management for coaches, tournament organizers, and league administrators across iOS and Android.
+SSlamStat is a production-grade basketball tracking platform. It delivers real-time match tracking, comprehensive player analytics, and centralized team management for coaches, tournament organizers, and league administrators across iOS and Android.
 
 The platform synchronizes live scoring, quarter-by-quarter updates, and detailed performance metrics across all connected devices with sub-second latency.
 
@@ -98,6 +98,8 @@ flutter run                      # Development
 flutter build apk --release      # Android production
 flutter build ios --release      # iOS production
 flutter build web --release      # Web deployment
+firebase deploy --only hosting
+
 ```
 
 ---
@@ -173,7 +175,8 @@ Full architecture documentation: [`/docs/architecture.md`](docs/architecture.md)
 ## 👨‍💻 Developer
 
 **Aryant Kumar** – Flutter Developer | Firebase Specialist  
-[LinkedIn](https://www.linkedin.com/in/aryant-kumar-dev) • [GitHub](https://github.com/AryantKumar) • [Portfolio]([https://slamstat.web.app/](https://aryant-portfolio.framer.website/)
+[LinkedIn](https://www.linkedin.com/in/aryant-kumar-dev) • [GitHub](https://github.com/AryantKumar) • [Portfolio](https://aryant-portfolio.framer.website/)
+
 
 ---
 
